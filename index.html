@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Multiple html files">
+    <meta name="author" content="Grant">
+    <title>HTML Semantics</title>
+    <!--Place a nav element at the top of the page that includes your store name and (fake) links to other pages
+        Use the main element appropriately
+        Include three products your store sells, all listed on the same Products page
+        For each product, correctly use an article, header, and footer element and one or more section elements
+        Use figure and figcaption to show what each product looks like
+        Each product includes a nav element with one or more links to related products (the links don't have to go anywhere)
+        Use an aside in one or more products to advertise a promotion or discount for that product -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>My sweets</li>
+          <li><a href="#">Candy</a></li>
+          <li><a href="#">Doughnuts</a></li>
+          <li><a href="#">Ice Cream</a></li>
+        </ul>
+      </nav>
+      <h1>Products</h1>
+    </header>
+    <main>
+      <article>
+        <header>
+          <h2>Our Ice Cream:</h2>
+        </header>
+        <section>
+          <figure>
+            <img src="ice-cream.jpg" width="250" alt="Our Ice Cream">
+            <figcaption>
+              Look how delicious those sprinkles look!
+            </figcaption>
+          </figure>
+          <p>Our ice cream is made from fresh custard straight from the local farms. You can top it with almost anything!</p>
+          <aside>
+            <h4>ALL ICE CREAM HALF OFF!</h4>
+            <p>If you come into our store during any day on spring break, all ice cream will be half off!</p>
+          </aside>
+          <nav>
+            <a href="#">Check out our other flavors!</a>
+          </nav>
+        </section>
+        <footer>
+          <p>Ice cream is 4.99 a pint</p>
+        </footer>
+      </article>
+      <article>
+        <header>
+          <h2>Our Candy:</h2>
+        </header>
+        <section>
+          <figure>
+            <img src="candy.jpg" width="250" alt="Our Candy">
+            <figcaption>
+              Chocolate deluxe!
+            </figcaption>
+          </figure>
+          <p>We have candy ranging from sugar bombs, to delicous chocolate for the whole family!</p>
+          <nav>
+            <a href="#">Check out our other candy!</a>
+          </nav>
+        </section>
+        <footer>
+          <p>Candy is 2.99 per pound.</p>
+        </footer>
+      </article>
+      <article>
+        <header>
+          <h2>Our Doughnuts:</h2>
+        </header>
+        <section>
+          <figure>
+            <img src="doughnut.jpg" width="250" alt="Our Doughnuts">
+            <figcaption>
+              Those look amazing!
+            </figcaption>
+          </figure>
+          <p>Our doughnuts are freshly baked out of the oven, and served hot!</p>
+          <nav>
+            <a href="#">Check out our other doughnuts!</a>
+          </nav>
+        </section>
+        <footer>
+          <p>Doughnuts are 99 cents each.</p>
+        </footer>
+      </article>
+    </main>
+    <footer>
+      <p>Made by Grant G. 2017</p>
+    </footer>
+  </body>
+</html>
